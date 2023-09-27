@@ -21,8 +21,9 @@
     <!-- Slogan/Frase -->
     <h1 id="h1-head">Reports Dash Board</h1>
     <!-- BEGIN SEARCH BAR -->
-    <h3>Key Word Search</h3>
-    <div id="form">
+    
+    <div id="searchReport">
+      <h3>Key Word Search</h3>
       <form action="https://www.google.com/search" method="get">
         <input type="text" id="search-tex" name="q" placeholder="Type Report number">
         <button type="submit"> <i class="fas fa-search"></i></button>
@@ -38,29 +39,26 @@
       <h3 id="typeOfAnimal">Type of Animal: </h3>
       <h3 id="dateTime">Date and Time: </h3>
       <h3 id="description">Description: </h3>
-      <!-- TYPE -->
+      <!-- Dropdwon for choose Status of Report -->
       <div id="Report1">
         <h3>Status:</h3>
-        <label id="tleft" for="Choose Status"> Type: </label>
+        <label id="status" for="Choose Status"> Type: </label>
         <select name="statusReport" id="statusReport">
           <option value="RE">Rescue</option>
           <option value="WT"> Waiting </option>
           <option value="NF">Not Found</option>
           <option value="MI">Missed</option>
         </select>
+        <!-- Dropdwon for choose Status of Report -->
+        <div class="buttons">
+        <button id="btnStatus" onclick="alert('Status Update');">Update Staus</button>
+        <button id="btnMoreDetails" onclick="alert('Send to another page');">View more Details</button>
+        </div>
       </div>
-
-
-
-
     </div>
-
-
-
+     <!-- END FIRST REPORT -->
   </main>
-
   <!-- END MAIN -->
-
   <!-- BEGIN FOOTER -->
   <footer>
     <section class="contact">
@@ -81,11 +79,7 @@
       </ul>
     </section>
   </footer>
-
   <!-- END FOOTER -->
-
-
-
 </body>
 
 </html>
