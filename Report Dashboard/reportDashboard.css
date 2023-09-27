@@ -6,22 +6,55 @@ html {
   background-color: rgb(222, 222, 232);
 }
 
-/* HEADER BEGIN */
-
+/* MAIN BEGIN */
 #h1-head{
   text-align: center;
 }
-
 #searchReport{
   background-color: red;
-
 }
 
 
 #report{
-  background-color: rgb(106, 106, 174);
+  background-color: rgb(101, 101, 116);
 }
 
+#statusDrop{
+    color:  rgb(239, 35, 60);
+    font-size: 4vw;
+    padding: 1vh 1rem 1vh 1rem;
+    border-bottom: 0.2rem solid black;
+    border-top: 0.2rem solid black;
+    margin: 10px;
+   
+
+}
+
+#btnStatus {
+  background-color: #04AA6D;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+#btnMoreDetails {
+  background-color: #df0303;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
 
 
 /* FOOTER BEGIN */
